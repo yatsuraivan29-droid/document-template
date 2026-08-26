@@ -21,7 +21,6 @@ function render(){
     ${hero(data)}
     ${about(data)}
     ${services(data)}
-    ${gallery(data)}
     ${reviews(data)}
     ${contacts(data)}
     ${footer(data)}

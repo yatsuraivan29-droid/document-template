@@ -4,10 +4,10 @@ export const data = {
         slogan: "",
         description: "",
         phone: "tel:+421900123456",
-        email: "info@beautysalon.sk",
+        email: "info@Document.sk",
         address: "",
 
-        logo: "Beauty",
+        logo: "Документ",
         favicon: "",
 
         social: {
@@ -21,103 +21,69 @@ export const data = {
     header: {
         navigation: [
                     {
-            title: "Home",
+            title: "Головна",
             href: "#hero"
         },
         {
-            title: "About",
+            title: "Про нас",
             href: "#about"
         },
         {
-            title: "Services",
+            title: "Послуги",
             href: "#services"
         },
         {
-            title: "Gallery",
-            href: "#gallery"
-        },
-        {
-            title: "Contacts",
+            title: "Контакти",
             href: "#contacts"
         }
         ],
         button: {
-            title: "zavolat",
+            title: "Консультація",
         }
     },
 
     hero: {
-        title: "Krása, ktorá zvýrazní vašu jedinečnosť.",
-        subtitle: "Profesionálna starostlivosť, moderné techniky a individuálny prístup. Doprajte si chvíľu relaxu a odíďte spokojní.",
+        title: "Допомога з документами в Словатчині.",
+        subtitle: "Допомагаю українцям з переїздом та легалізацією в Словатчині Документи, довідки, переклади, Вакансії",
         image: "./images/hero-img.png",
     },
 
     about: {
-        title: "O nás",
-        description: "Staráme sa o vašu krásu s dôrazom na kvalitu, profesionalitu a individuálny prístup.",
+        title: "Про нас",
+        description: "10 років на ринку Словатчини",
         Advantages: [
-            "Profesionálny tím",
-            "Kvalitná kozmetika",
-            "Individuálny prístup"
+            "Безкоштовна консультація",
+            "Швидко працюємо",
+            "Якісна робота"
         ],
-        image: "./images/about-img.jpg",
+        image: "./images/about-img.png",
     },
 
     services: [
     {
-        title: "Strihanie",
-        description: "Moderné účesy prispôsobené vášmu štýlu.",
-        image: "./images/services/service-1.webp"
+        title: "Переїзд",
+        description: "Допомога з переїздом.",
+        image: "./images/services/service-1.png"
     },
     {
-        title: "Farbenie",
-        description: "Profesionálne farbenie s kvalitnými produktmi.",
-        image: "./images/services/service-2.jpg"
+        title: "Довідки",
+        description: "Виготовлення та передклад довідок.",
+        image: "./images/services/service-2.png"
     },
     {
-        title: "Styling",
-        description: "Perfektný vzhľad na každú príležitosť.",
-        image: "./images/services/service-3.jpg"
-    },
-    {
-        title: "Starostlivosť",
-        description: "Regeneračné procedúry pre zdravé vlasy.",
-        image: "./images/services/service-4.jpg"
+        title: "Ваканції",
+        description: "Підпір вакансій під ваші вміння.",
+        image: "./images/services/service-3.png"
     }
     ],
 
-    gallery: [
-         {
-        image: "./images/gallery/gallery-1.jpg",
-        alt: "Účes 1"
-    },
-    {
-        image: "./images/gallery/gallery-1.jpg",
-        alt: "Účes 2"
-    },
-    {
-        image: "./images/gallery/gallery-1.jpg",
-        alt: "Účes 3"
-    },
-    {
-        image: "./images/gallery/gallery-1.jpg",
-        alt: "Účes 4"
-    },
-    {
-        image: "./images/gallery/gallery-1.jpg",
-        alt: "Účes 5"
-    },
-    {
-        image: "./images/gallery/gallery-1.jpg",
-        alt: "Účes 6"
-    }
-    ],
+    gallery: [],
 
     reviews: [],
 
     contacts: {
-    title: "Kontaktujte nás",
-    subtitle: "Máte otázky alebo si chcete rezervovať termín? Kontaktujte nás ešte dnes.",
+    title: "Безкоштовна консультація",
+    subtitle: "",
 
     phone: "+421 900 123 456",
     email: "info@beautysalon.sk",
@@ -131,7 +97,7 @@ export const data = {
         thursday: "09:00 - 18:00",
         friday: "09:00 - 18:00",
         saturday: "09:00 - 14:00",
-        sunday: "Zatvorené"
+        sunday: "Вихідний"
     },
 
     social: {
