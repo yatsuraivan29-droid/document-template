@@ -2,7 +2,7 @@
 
 export function hero(data) {
     return `
-        <section id="hero">
+        <section class = "hero" id="hero">
             <div class="hero__container container">
                 <div class="hero__content">
                     <h1 class="hero__title">${data.hero.title}</h1>

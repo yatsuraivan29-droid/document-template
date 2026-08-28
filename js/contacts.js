@@ -7,7 +7,7 @@ export function contacts(data) {
                 <p class = "contact__subtitle">${data.contacts.subtitle}</p>
                 <div class="contact__info">
                     <div class="contact__info-item">
-                        <h3 class="contact__info-title">Telefón:</h3>
+                        <h3 class="contact__info-title">Телофон:</h3>
                         <a href="${data.company.phone}" class="contact__info-text">${data.contacts.phone}</a>
                     </div>
                     <div class="contact__info-item">
@@ -15,19 +15,19 @@ export function contacts(data) {
                         <a href="mailto:${data.company.email}" class="contact__info-text">${data.contacts.email}</a>
                     </div>
                     <div class="contact__info-item">
-                        <h3 class="contact__info-title">Adresa:</h3>
+                        <h3 class="contact__info-title">Адреса:</h3>
                         <p class="contact__info-text">${data.contacts.address}</p>
                     </div>
                 </div>
                 <div class="contact__time">
-                    <h3 class="contact__time-title">Otváracie hodiny</h3>
-                    <p class="contact__time-text"><span>pondelok:</span> ${data.contacts.workTime.monday}</p>
-                    <p class="contact__time-text"><span>utorok:</span> ${data.contacts.workTime.tuesday}</p>
-                    <p class="contact__time-text"><span>streda:</span> ${data.contacts.workTime.wednesday}</p>
-                    <p class="contact__time-text"><span>štvrtok:</span> ${data.contacts.workTime.thursday}</p>
-                    <p class="contact__time-text"><span>piatok:</span> ${data.contacts.workTime.friday}</p>
-                    <p class="contact__time-text"><span>sobota:</span> ${data.contacts.workTime.saturday}</p>
-                    <p class="contact__time-text"><span>nedeľa:</span> ${data.contacts.workTime.sunday}</p>
+                    <h3 class="contact__time-title">Години роботи</h3>
+                    <p class="contact__time-text"><span>Понеділок:</span> ${data.contacts.workTime.monday}</p>
+                    <p class="contact__time-text"><span>Вівторок:</span> ${data.contacts.workTime.tuesday}</p>
+                    <p class="contact__time-text"><span>Середа:</span> ${data.contacts.workTime.wednesday}</p>
+                    <p class="contact__time-text"><span>Четверг:</span> ${data.contacts.workTime.thursday}</p>
+                    <p class="contact__time-text"><span>П'ятниця:</span> ${data.contacts.workTime.friday}</p>
+                    <p class="contact__time-text"><span>Субота:</span> ${data.contacts.workTime.saturday}</p>
+                    <p class="contact__time-text"><span>Неділя:</span> ${data.contacts.workTime.sunday}</p>
                 </div>
                 <a href="${data.company.phone}" class="button contact__button">${data.header.button.title}</a>
                 </div>

@@ -4,7 +4,7 @@ export const data = {
         slogan: "",
         description: "",
         phone: "tel:+421900123456",
-        email: "info@Document.sk",
+        email: "info_document@.sk",
         address: "",
 
         logo: "Документ",
@@ -72,7 +72,7 @@ export const data = {
     },
     {
         title: "Ваканції",
-        description: "Підпір вакансій під ваші вміння.",
+        description: "Підбір вакансій під ваші вміння.",
         image: "./images/services/service-3.png"
     }
     ],
@@ -86,7 +86,7 @@ export const data = {
     subtitle: "",
 
     phone: "+421 900 123 456",
-    email: "info@beautysalon.sk",
+    email: "info_document@.sk",
 
     address: "Hlavná 123, Bratislava",
 
