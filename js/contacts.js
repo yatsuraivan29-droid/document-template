@@ -7,7 +7,7 @@ export function contacts(data) {
                 <p class = "contact__subtitle">${data.contacts.subtitle}</p>
                 <div class="contact__info">
                     <div class="contact__info-item">
-                        <h3 class="contact__info-title">Телофон:</h3>
+                        <h3 class="contact__info-title">Телефон:</h3>
                         <a href="${data.company.phone}" class="contact__info-text">${data.contacts.phone}</a>
                     </div>
                     <div class="contact__info-item">
